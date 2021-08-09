@@ -1,0 +1,10 @@
+include:
+  - template: Security/Secret-Detection.gitlab-ci.yml
+
+get env info:
+    image: alpine:edge
+    script: 
+        - env | tee -a howdy.txt
+    artifacts:
+        paths:
+            - howdy.txt
