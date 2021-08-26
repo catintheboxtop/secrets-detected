@@ -58,6 +58,7 @@ func main() {
 	db, err := setupDB()
 	if err != nil {
 		log.Fatal(err)
+		log.Fatal("Whoa, there.")
 	}
 	defer db.Close()
 
