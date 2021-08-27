@@ -1,9 +1,10 @@
 variables:
-  SANITY_MODE: 
+  SANITY_MODE: ""
 
 hello world:
-    stage :build
+    stage: build
     script:
+        - env
         - echo $SANITY_MODE
 
 include:
