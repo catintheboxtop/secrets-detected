@@ -19,6 +19,7 @@ get env info:
             - howdy.txt
 
 secret_detection:
+  image: alpine:edge
   artifacts:
       paths:
           - gl-secret-detection-report.json
