@@ -22,3 +22,8 @@ secret_detection:
   artifacts:
       paths:
           - gl-secret-detection-report.json
+
+lateron:
+  stage: deploy
+  script:
+    - ls -ahls gl-secret-detection-report.json
