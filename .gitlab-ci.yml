@@ -5,7 +5,10 @@ hello world:
     stage: build
     script:
         - env
+        - echo $CI_COMMIT_AUTHOR
         - echo $SANITY_MODE
+
+
 
 include:
   - template: Security/Secret-Detection.gitlab-ci.yml
