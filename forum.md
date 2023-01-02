@@ -1,0 +1,1 @@
+“A personal token for GitLab will look like glpat-JUST20LETTERSANDNUMB” #gitleaks:allow
