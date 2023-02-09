@@ -29,3 +29,4 @@ omg:
   image: redhat/ubi8
   script:
     - yum install -y git
+    - pip3 install requests
