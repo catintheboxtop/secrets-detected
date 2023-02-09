@@ -22,3 +22,9 @@ secret_detection:
   artifacts:
       paths:
           - gl-secret-detection-report.json
+
+
+omg:
+  image: docker pull redhat/ubi8:8.7-1054.1675788412-source
+  script:
+    - yum install -y git
