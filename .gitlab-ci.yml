@@ -25,6 +25,7 @@ secret_detection:
 
 
 omg:
+  stage: build
   image: docker pull redhat/ubi8:8.7-1054.1675788412-source
   script:
     - yum install -y git
