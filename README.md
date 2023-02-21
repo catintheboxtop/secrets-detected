@@ -2,6 +2,13 @@
 
 
 
+
+What's the deal with peanuts?
+
+This is a project that gets mirrored to the **Public** [catintheboxtop/secrets-detected](https://github.com/catintheboxtop/secrets-detected) project on `github.com`. This is done via [push mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/push.html) in GitLab. 
+
+
+
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
